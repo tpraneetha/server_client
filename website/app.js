@@ -37,4 +37,4 @@ const getData = async (url = "", data = {}) => {
 postData("/addAnimal", { animal: "lion" });
 postData("/addMovie", { movie: "matrix", score: 5 });
 postData("/add", { num: 42 });
-// getData("/all");
+ getData("/all");

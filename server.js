@@ -58,12 +58,12 @@ function getFakeData(req, res) {
 }
 app.get("/animalData", getAnimalData);
 function getAnimalData(req, res) {
-  const newEntry = {
-    animal: req.body.animal,
-    facts: req.body.fact,
-    fav: req.body.fav,
-  };
-  animalData.push(newEntry);
+//   const newEntry = {
+//     animal: req.body.animal,
+//     facts: req.body.fact,
+//     fav: req.body.fav,
+//   };
+//   animalData.push(newEntry);
   res.send(animalData);
   console.log(animalData);
 }

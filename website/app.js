@@ -117,8 +117,8 @@ function performAction(e) {
       // Add data
       console.log(data);
       postData("/addAnimal", {
-        animal: data.animal,
-        fact: data.fact,
+        animal: newAnimal,
+        fact: animalFact,
         fav: favFact,
       });
     })

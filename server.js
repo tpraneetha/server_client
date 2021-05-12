@@ -37,7 +37,7 @@ function addMovie(req, res) {
   data.push(req.body);
   console.log(data);
 }
-app.post("/animal", addAnimal);
+app.post("/addAnimal", addAnimal);
 
 function addAnimal(req, res) {
   data.push(req.body);
